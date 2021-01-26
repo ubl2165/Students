@@ -7,7 +7,7 @@ package studentlist;
 
 /**
  *
- * @author Ji Li
+ * @author Ji Li Jan 26 2021
  */
 public class Student {
     
