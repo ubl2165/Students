@@ -22,7 +22,7 @@ public class Studentlist {
         
         Scanner input = new Scanner(System.in);
         
-        Student studentsArray[] = new Student[2];
+        Student studentsArray[] = new Student[5];
         
         System.out.println("enter student names.");
         
