@@ -12,7 +12,10 @@ package studentlist;
 public class Student {
     
     private String name;
+    
     private int age;
+    
+    private String address = "GTA";
     
     public Student(){
         setName("Ji Li");
@@ -47,6 +50,14 @@ public class Student {
         this.age = age;
     }  
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    
     @Override
     public String toString() {
         return name;
